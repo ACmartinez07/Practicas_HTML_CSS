@@ -1,0 +1,1 @@
+Este va a ser un proyecto personal con el objetivo de aprender mejor el uso de css y html
