@@ -1,3 +1,10 @@
+/* ------------ Variables -----------*/
+:root{
+    
+    --naranaja-color: coral;
+}
+/* ------------ Variables -----------*/
+
 html,body{
     padding: 0px;
     margin: 0px;
@@ -40,19 +47,40 @@ nav li a:hover{
 }
 
 .products{
-    background-image: url("../images/yo.png");
-    height: 200px;
+    /* background-image: url("../images/yo.png"); */
+    max-height: 50px;
     background-size: cover;
     background-position: center top;
-    padding: 15%;
+    padding: 10%;
     display: flex;
 }
 
 .product{
     padding: 10px;
+    margin-top: -240px;
 }
 
 .product .content{
     background-color: white;
     padding: 20px;
+    box-shadow: 0 0 2px #928989;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: coral;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #bf3300;
 }
