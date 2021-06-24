@@ -3,18 +3,18 @@
     --naranaja-color: coral;
     --white-color: white;
     /* Tipografia */
-    --normal:12px;
+    --normal:17px;
     /* Espaciado */
     --space:10px;
     /* Box shadow */
-    --box: 0px 0 2px 1px #e6e5e9;
+    --box: 0px 0 4px 2px #e6e5e9;
 }
 /* ------------ Variables -----------*/
 
 html,body{
     padding: 0px;
     margin: 0px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: helvetica;
 }
 
@@ -52,18 +52,20 @@ nav li a:hover{
     text-align: center;
 }
 
+/* Comienza Productos */
+
 .products{
     background-image: url("../images/Trazado\ 2.png");
-    max-height: 100px;
+    max-height: 0px;
     background-size: cover;
     background-position: center top;
-    padding: 15%;
+    padding: 20%;
     display: flex;
 }
 
 .product{
     padding: var(--space);
-    margin-top: -240px;
+    margin-top: -300px;
 }
 
 .product .content{
@@ -90,3 +92,69 @@ nav li a:hover{
 .main_button:hover{
     background-color: #bf3300;
 }
+
+/* Termina productos */
+
+/* Comienza descripciones */
+
+.beneficios{
+    background-size: cover;
+    background-position: center top;
+    padding: 10%;
+    display: flex;
+}
+
+.beneficio{
+    padding: var(--space);
+}
+
+.beneficio .content_beneficio{
+    background-color: var(--white-color);
+    padding: 20px;
+}
+
+/* Termina descripciones */
+
+/* Comienza menciones */
+
+.mentions_section{
+    text-align: center;
+    padding-top: 40px;
+    color: #313337;
+}
+
+.mentions{
+    background-size: cover;
+    background-position: center top;
+    padding: 40px 10% 5% 7%;
+    display: flex;
+}
+
+.mention{
+    padding: 5px;
+}
+
+.mention .content_mention{
+    box-shadow: var(--box);
+}
+
+.mention .content_mention .text_mention{
+    padding: 10px;
+}
+
+/* Termina menciones */
+
+footer{
+    background-color: #313337;
+    
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+footer .option{
+    padding: var(--space);
+}
+
