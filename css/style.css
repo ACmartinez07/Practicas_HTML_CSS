@@ -48,16 +48,16 @@ nav li a:hover{
 /* ------ Main section -------*/
 
 .main_section{
-    padding: 15%;
+    padding: 10%;
     text-align: center;
 }
 
 .products{
-    /* background-image: url("../images/yo.png"); */
-    max-height: 50px;
+    background-image: url("../images/Trazado\ 2.png");
+    max-height: 100px;
     background-size: cover;
     background-position: center top;
-    padding: 10%;
+    padding: 15%;
     display: flex;
 }
 
