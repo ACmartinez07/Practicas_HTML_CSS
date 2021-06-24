@@ -1,7 +1,13 @@
 /* ------------ Variables -----------*/
 :root{
-    
     --naranaja-color: coral;
+    --white-color: white;
+    /* Tipografia */
+    --normal:12px;
+    /* Espaciado */
+    --space:10px;
+    /* Box shadow */
+    --box: 0px 0 2px 1px #e6e5e9;
 }
 /* ------------ Variables -----------*/
 
@@ -14,9 +20,9 @@ html,body{
 
 nav{
     display: flex;
-    background-color: coral;
-    padding: 10px;
-    color: white;
+    background-color: var(--naranaja-color);
+    padding: var(--space);
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -36,7 +42,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color:white;
+    color:var(--white-color);
 }
 
 /* ------ Main section -------*/
@@ -56,14 +62,14 @@ nav li a:hover{
 }
 
 .product{
-    padding: 10px;
+    padding: var(--space);
     margin-top: -240px;
 }
 
 .product .content{
-    background-color: white;
+    background-color: var(--white-color);
     padding: 20px;
-    box-shadow: 0 0 2px #928989;
+    box-shadow: var(--box);
 }
 
 .img_content{
@@ -71,11 +77,11 @@ nav li a:hover{
 }
 
 .main_button{
-    background-color: coral;
+    background-color: var(--naranaja-color);
     width: 100%;
-    padding: 10px;
-    font-size: 17px;
-    color: white;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
     border: 0;
     cursor: pointer;
     border-radius: 2px;
