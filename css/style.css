@@ -127,8 +127,8 @@ nav li a:hover{
 
 .mentions{
     background-size: cover;
-    background-position: center top;
-    padding: 40px 10% 5% 7%;
+    background-position: center top;  
+    padding: 5% 15% 10% 15%;
     display: flex;
 }
 
@@ -158,4 +158,9 @@ footer{
 
 footer .option{
     padding: var(--space);
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
