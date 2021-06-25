@@ -56,7 +56,6 @@ nav li a:hover{
 
 .products{
     background-image: url("../images/Trazado\ 2.png");
-    max-height: 0px;
     background-size: cover;
     background-position: center top;
     padding: 20%;
@@ -157,4 +156,3 @@ footer{
 footer .option{
     padding: var(--space);
 }
-
