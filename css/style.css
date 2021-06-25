@@ -64,6 +64,7 @@ nav li a:hover{
 
 .product{
     padding: var(--space);
+    background-size: cover;
     margin-top: -300px;
 }
 
@@ -71,6 +72,7 @@ nav li a:hover{
     background-color: var(--white-color);
     padding: 20px;
     box-shadow: var(--box);
+    background-size: cover;
 }
 
 .img_content{
@@ -101,6 +103,7 @@ nav li a:hover{
     background-position: center top;
     padding: 10%;
     display: flex;
+    text-align: center;
 }
 
 .beneficio{
