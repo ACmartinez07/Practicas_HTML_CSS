@@ -3,7 +3,7 @@
     --naranaja-color: coral;
     --white-color: white;
     /* Tipografia */
-    --normal:17px;
+    --normal:15px;
     /* Espaciado */
     --space:10px;
     /* Box shadow */
@@ -16,6 +16,10 @@ html,body{
     margin: 0px;
     font-size: 15px;
     font-family: helvetica;
+}
+
+label{
+    font-size: var(--normal);
 }
 
 nav{
@@ -149,12 +153,41 @@ nav li a:hover{
 
 /* Termina menciones */
 
+/* Comienza ventas */
+
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.data{
+    margin-top: var(--space);
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.modulo_pago_img{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.modulo_pago .main_button{
+    margin-top: var(--space);
+}
+
+/* Termina ventas */
+
 footer{
     background-color: #313337;
     padding: var(--space);
     display: flex;
     color: white;
     justify-content: space-between;
-    height: 60px;
+    height: 20px;
     align-items: center;
 }
