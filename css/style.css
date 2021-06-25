@@ -99,20 +99,21 @@ nav li a:hover{
 /* Comienza descripciones */
 
 .beneficios{
-    background-size: cover;
-    background-position: center top;
     padding: 10%;
     display: flex;
-    text-align: center;
 }
 
 .beneficio{
     padding: var(--space);
+    text-align: center;
 }
 
-.beneficio .content_beneficio{
-    background-color: var(--white-color);
-    padding: 20px;
+.beneficio img{
+    max-height: 100px;
+}
+
+.text_beneficio{
+    text-align: justify;
 }
 
 /* Termina descripciones */
@@ -121,19 +122,21 @@ nav li a:hover{
 
 .mentions_section{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     color: #313337;
 }
 
 .mentions{
-    background-size: cover;
-    background-position: center top;  
-    padding: 5% 15% 10% 15%;
+    padding: 5%;
     display: flex;
 }
 
 .mention{
-    padding: 5px;
+    padding: var(--space);
+}
+
+.mention img{
+    width: 100%;
 }
 
 .mention .content_mention{
@@ -141,26 +144,17 @@ nav li a:hover{
 }
 
 .mention .content_mention .text_mention{
-    padding: 10px;
+    padding: var(--space);
 }
 
 /* Termina menciones */
 
 footer{
     background-color: #313337;
-    
+    padding: var(--space);
     display: flex;
     color: white;
     justify-content: space-between;
     height: 60px;
     align-items: center;
-}
-
-footer .option{
-    padding: var(--space);
-}
-
-img{
-    width: 100%;
-    height: auto;
 }
