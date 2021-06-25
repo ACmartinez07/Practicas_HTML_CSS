@@ -81,6 +81,7 @@ nav li a:hover{
 
 .img_content{
     text-align: center;
+    max-height: 161px;
 }
 
 .main_button{
